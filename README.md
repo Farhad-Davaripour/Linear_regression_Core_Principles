@@ -1,26 +1,28 @@
-## Building Linear Regression from the Ground Up
+## Linear Regression Core Principles
 
-This repository is home to a detailed notebook that guides you through building a linear regression model from the ground up.
+This repository contains a demo notebook that demonstrates the implementation of a linear regression model from scratch.
 
-### Prerequisites
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Farhad-Davaripour/Linear_regression_Core_Principles/blob/main/demo.ipynb)
+
+### Dependencies
 - Python 3.x
 - NumPy
 - Matplotlib
-- scikit-learn (used only for creating synthetic datasets)
+- scikit-learn # solely used to generate synthetic data.
 - IPython
 
-### Key Components
-- **Model Hypothesis**: Defines the linear regression equation \( y = xw + b \).
-- **Computation Class**: Executes both forward and backward operations based on the model hypothesis.
-- **Error Quantification**: Utilizes mean squared error to evaluate the accuracy of predictions.
-- **Parameter Optimization**: Employs gradient descent to refine model parameters.
-- **Model Evaluation Visuals**: Provides graphical insights into the model's efficacy and parameter evolution.
+### Features
+- **Hypothesis Function**: Represents the linear regression model \( y = xw + b \).
+- **Value Class**: Implements forward and backward passes agasint the hypothesis function..
+- **Loss Function**: Mean squared error to quantify prediction errors.
+- **Gradient Descent**: Optimization algorithm for parameter updates.
+- **Visualization**: Graphs to observe the model's performance and convergence.
 
-### Getting Started
-1. Download the repository.
-2. Ensure all dependencies are installed.
-3. Execute the `demo.ipynb` notebook in Google Colab.
-4. The notebook will guide you through constructing and assessing the linear regression model step by step.
+### Usage
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the `demo.ipynb` notebook in Google Colab.
+4. Follow the steps in the notebook to build and visualize the linear regression model.
 
-### Graphical Insights
-Included within the notebook are utilities for plotting the computational workflow, showcasing the model's fitting to the data, and illustrating the optimization process of model parameters for improved accuracy.
+### Visualization
+The notebook includes functions to visualize the computational graph, the linear fit to the data, and the convergence of the model parameters during optimization.
