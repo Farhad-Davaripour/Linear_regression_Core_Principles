@@ -12,22 +12,20 @@ This repository demonstrates the foundational principles of developing a linear 
 
 - **Graph Visualization**: Leverages `graphviz` to depict the model's computational graph, aiding in comprehending data and gradient flows for easier debugging and learning.
 
-   ![Graph Visualization](artifacts/\graph_viz.png)
+   ![Graph Visualization](artifacts/graph_viz.png)
 
 - **Optimization Loop**: Illustrates model training via gradient descent, iteratively refining parameters to reduce loss, demonstrating the adjustments for error minimization.
 
-    [![Iterative optimization process](artifacts\LR_opt.png)](artifacts\LR_opt.mp4)
+    [![Iterative optimization process](artifacts/LR_opt.png)](artifacts/LR_opt.mp4)
 
 - **Loss Function**: Adopts Mean Squared Error (MSE) to evaluate model precision, measuring the discrepancy between predictions and actual targets, serving as the optimization criterion.
 
-   ![Graph Visualization](artifacts\loss_value.png)
+   ![Graph Visualization](artifacts/loss_value.png)
 
 ## Getting Started
 
 To explore the linear regression model, clone this repository and run the `demo.ipynb` notebook (or open in [Google Colab](https://colab.research.google.com/github/Farhad-Davaripour/Linear_regression_Core_Principles/blob/main/demo.ipynb)
 ). The notebook is structured to guide you through each step of the model development process, from generating synthetic data to training the model and visualizing its performance.
-
-
 
 ## Conclusion
 
