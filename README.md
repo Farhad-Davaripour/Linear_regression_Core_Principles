@@ -1,6 +1,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Farhad-Davaripour/Linear_regression_Core_Principles/blob/main/demo.ipynb)
 
-# Linear Regression Model from Scratch
+# Build Your Linear Regression Model
 
 This repository demonstrates the foundational principles of developing a linear regression model entirely from scratch. The project encompasses the construction and visualization of a linear regression algorithm, including the essential components of feed-forward computation and backpropagation for model training. The approach is hands-on, focusing on understanding the underlying mechanics of linear models and gradient-based optimization. This project draws inspiration and partial adaptation from Andrej Karpathy's [micrograd project](https://github.com/karpathy/micrograd).
 
