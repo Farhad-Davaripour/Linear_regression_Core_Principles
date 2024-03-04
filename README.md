@@ -16,7 +16,7 @@ This repository demonstrates the foundational principles of developing a linear 
 
 - **Optimization Loop**: Illustrates model training via gradient descent, iteratively refining parameters to reduce loss, demonstrating the adjustments for error minimization.
 
-    <a href="artifacts/LR_opt.mp4"><img src="artifacts/LR_opt.png" alt="Iterative optimization process" width="50%"/></a>
+   ![Iterative Optimization Process](artifacts/LR_opt.gif)
 
 - **Loss Function**: Adopts Mean Squared Error (MSE) to evaluate model precision, measuring the discrepancy between predictions and actual targets, serving as the optimization criterion.
 
