@@ -12,11 +12,14 @@ This repository demonstrates the foundational principles of developing a linear 
 
 - **Graph Visualization**: Leverages `graphviz` to depict the model's computational graph, aiding in comprehending data and gradient flows for easier debugging and learning.
 
+   ![Graph Visualization](artifacts/\graph_viz.png)
+
 - **Optimization Loop**: Illustrates model training via gradient descent, iteratively refining parameters to reduce loss, demonstrating the adjustments for error minimization.
 
-- **Loss Function**: Adopts Mean Squared Error (MSE) to evaluate model precision, measuring the discrepancy between predictions and actual targets, serving as the optimization criterion.
+    [![Iterative optimization process](artifacts\LR_opt.png)](artifacts\LR_opt.mp4)
 
-- **Visualizing Optimization**: Offers visualization tools to observe model performance and optimization progress, vital for analyzing improvement and data fit over iterations.
+- **Loss Function**: Adopts Mean Squared Error (MSE) to evaluate model precision, measuring the discrepancy between predictions and actual targets, serving as the optimization criterion.
+   ![Graph Visualization](artifacts\loss_value.png)
 
 ## Getting Started
 
