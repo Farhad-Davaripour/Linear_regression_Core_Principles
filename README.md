@@ -2,25 +2,25 @@
 
 # Linear Regression Model from Scratch
 
-This repository demonstrates the foundational principles of developing a linear regression model entirely from scratch. The project encompasses the construction and visualization of a linear regression algorithm, including the essential components of feed-forward computation and backpropagation for model training. The approach is hands-on, focusing on understanding the underlying mechanics of linear models and gradient-based optimization.
+This repository demonstrates the foundational principles of developing a linear regression model entirely from scratch. The project encompasses the construction and visualization of a linear regression algorithm, including the essential components of feed-forward computation and backpropagation for model training. The approach is hands-on, focusing on understanding the underlying mechanics of linear models and gradient-based optimization. This project draws inspiration and partial adaptation from Andrej Karpathy's [micrograd project](https://github.com/karpathy/micrograd).
 
 ## Overview
 
-- **Value Class**: Inspired by Andrej Karpathy's [micrograd project](https://github.com/karpathy/micrograd), the `Value` class is central to the framework, encapsulating a scalar value and its gradient. It's vital for constructing the autograd graph, enabling efficient execution of forward operations and the backward propagation of gradients
+- **Value Class**: The `Value` class is central to the framework, encapsulating a scalar value and its gradient. It's vital for constructing the autograd graph, enabling efficient execution of forward operations and the backward propagation of gradients
 
 - **Hypothesis Function**: Articulates the linear regression formula \(y = xw + b\), with \(w\) and \(b\) as parameters, to predict outcomes. It defines the model's structure for making predictions.
 
 - **Graph Visualization**: Leverages `graphviz` to depict the model's computational graph, aiding in comprehending data and gradient flows for easier debugging and learning.
 
-   ![Graph Visualization](artifacts/graph_viz.png)
+   <img src="artifacts/graph_viz.png" alt="Graph Visualization" width="80%"/>
 
 - **Optimization Loop**: Illustrates model training via gradient descent, iteratively refining parameters to reduce loss, demonstrating the adjustments for error minimization.
 
-    [![Iterative optimization process](artifacts/LR_opt.png)](artifacts/LR_opt.mp4)
+    <a href="artifacts/LR_opt.mp4"><img src="artifacts/LR_opt.png" alt="Iterative optimization process" width="50%"/></a>
 
 - **Loss Function**: Adopts Mean Squared Error (MSE) to evaluate model precision, measuring the discrepancy between predictions and actual targets, serving as the optimization criterion.
 
-   ![Graph Visualization](artifacts/loss_value.png)
+   <img src="artifacts/loss_value.png" alt="Graph Visualization" width="80%"/>
 
 ## Getting Started
 
