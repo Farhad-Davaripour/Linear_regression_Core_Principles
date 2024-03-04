@@ -19,6 +19,7 @@ This repository demonstrates the foundational principles of developing a linear 
     [![Iterative optimization process](artifacts\LR_opt.png)](artifacts\LR_opt.mp4)
 
 - **Loss Function**: Adopts Mean Squared Error (MSE) to evaluate model precision, measuring the discrepancy between predictions and actual targets, serving as the optimization criterion.
+
    ![Graph Visualization](artifacts\loss_value.png)
 
 ## Getting Started
